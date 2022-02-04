@@ -2,6 +2,14 @@
 
 Using GAN's to generate novel synthesizer sounds and audio.
 
+## Data
+
+A first set of wav files was downloaded from [MusicRadar/SampleRadar](https://www.musicradar.com/news/sampleradar-488-free-hip-hop-essentials-samples) for 80's Synth Samples and Hip Hop Essentials with ~500 samples each in WAV file format.
+
+These are uploaded to a shared Google Drive and should be downloaded and put in `/synthegan/data/raw/` for working with.
+
+[GDrive Data Folder Link](https://drive.google.com/drive/folders/1NpjeJYIznGxrBSyRrUikkUB8v9TpIsxc)
+
 ## Environment Setup/Updating
 
 To setup it's recommended to use Conda as your environment/package manager. To create a `synthegan` environment with conda from the `environment.yml` file use the following command.
