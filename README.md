@@ -1,10 +1,34 @@
-SyntheGAN
-==============================
+# SyntheGAN
 
 Using GAN's to generate novel synthesizer sounds and audio.
 
-Project Organization
-------------
+## Environment Setup/Updating
+
+To setup it's recommended to use Conda as your environment/package manager. To create a `synthegan` environment with conda from the `environment.yml` file use the following command.
+
+```
+conda env create -f environment.yml
+```
+
+If you want to use pip first create a virtual environment with venv then you can use the `requirements.txt` and run the following command:
+
+```
+pip install -r requirements.txt
+```
+
+To update both the `requirements.txt` and `environment.yml` run the following commands:
+
+```
+conda env export > environment.yml
+```
+
+and
+
+```
+pip list --format=freeze > requirements.txt
+```
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -51,7 +75,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
---------
+---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
